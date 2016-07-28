@@ -6,6 +6,17 @@ A WIP demonstrating driving [Atlas Scientific](http://www.atlas-scientific.com/)
 
 Also controls a supply valve through which additional nutrient can be released into the garden, a pump through which spent nutrient can be evacuated, as well as a display that can indicate the status of the garden on-premisis.
 
+## Garden Setup
+In setup, the device onto which the firmware is loaded sits connected via USB to a Raspberry Pi,
+which is the gateway to the Internet. The Pi receives MQTT, WAMP/JSON-RPC, or other commands from
+an IoT service in the cloud, from which it then translates and messages to this device.
+
+The hydroponic garden with which I used this software is described in the following diagram:
+
+![Morris Singer's Hydroponic Garden System Diagram](http://i.imgur.com/pqnGeTb.png)
+
+## API
+
 The Arduino is programmed to receive simple serial commands in the following language:
 
 ```
@@ -48,14 +59,6 @@ ERMODU  | An invalid module has been supplied in the first two characters of the
 ERPARA  | An invalid command or parameter has been supplied in the third through sixth or third through seventh characters of the command
 ERCOMM  | The gardener was not able to communicate with the specified device
 OK      | Worked
-
-In setup, the device onto which the firmware is loaded sits connected via USB to a Raspberry Pi,
-which is the gateway to the Internet. The Pi receives MQTT, WAMP/JSON-RPC, or other commands from
-an IoT service in the cloud, from which it then translates and messages to this device.
-
-The hydroponic garden with which I used this software is described in the following diagram:
-![Morris Singer's Hydroponic Garden System Diagram](http://i.imgur.com/pqnGeTb.png)
-
 
 There is cruft in here, as it was a very quick pass to get the job done.
 
