@@ -1,5 +1,7 @@
 #Gardener
 
+![Morris Singer's Hydroponic Garden](http://i.imgur.com/YP2dZa3.jpg)
+
 A WIP demonstrating driving [Atlas Scientific](http://www.atlas-scientific.com/) [Industrial pH sensor](http://www.atlas-scientific.com/product_pages/probes/industrial_ph_probe.html) and [EC sensors](http://www.atlas-scientific.com/product_pages/kits/ec_k0_1_kit.html) through a single Arduino via Atlas's [EZO pH circuit](http://www.atlas-scientific.com/product_pages/circuits/ezo_ph.html) and [EZO EC circuit](http://www.atlas-scientific.com/product_pages/circuits/ezo_ec.html).
 
 Also controls a supply valve through which additional nutrient can be released into the garden, a pump through which spent nutrient can be evacuated, as well as a display that can indicate the status of the garden on-premisis.
