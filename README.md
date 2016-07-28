@@ -68,11 +68,11 @@ OK      | Worked
 <table border="0">
   <tr>
     <td width="50%">
-      ![Morris Singer's Hydroponic Gardener Device](http://i.imgur.com/HCRspme.jpg)<br />
+      <img alt="Morris Singer's Hydroponic Gardener Device" src="http://i.imgur.com/HCRspme.jpg" /><br />
       <em>The Gardener</em>
     </td>
     <td width="50%">
-      ![Morris Singer's Hydroponic Gardener Inside](http://i.imgur.com/xsndGfi.jpg)<br />
+      <img alt="Morris Singer's Hydroponic Gardener Inside" src="http://i.imgur.com/xsndGfi.jpg" /><br />
       <em>Inside the Gardener</em>
     </td>
   </tr>
