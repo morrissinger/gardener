@@ -64,6 +64,20 @@ ERPARA  | An invalid command or parameter has been supplied in the third through
 ERCOMM  | The gardener was not able to communicate with the specified device
 OK      | Worked
 
+## Photos
+<table border="0">
+  <tr>
+    <td width="50%">
+      ![Morris Singer's Hydroponic Gardener Device](http://i.imgur.com/HCRspme.jpg)<br />
+      <em>The Gardener</em>
+    </td>
+    <td width="50%">
+      ![Morris Singer's Hydroponic Gardener Inside](http://i.imgur.com/xsndGfi.jpg)<br />
+      <em>Inside the Gardener</em>
+    </td>
+  </tr>
+</table>
+
 There is cruft in here, as it was a very quick pass to get the job done.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
