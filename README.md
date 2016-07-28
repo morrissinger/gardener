@@ -6,10 +6,9 @@ Also controls a supply valve through which additional nutrient can be released i
 
 The Arduino is programmed to receive simple serial commands in the following language:
 
--------|---------|---------|-------------
-Module | Command | Param   | Description
--------|---------|---------|-------------
-EC     | READ    |         | Read the value of the sensor
+Module | Command | Param   | Description                                                             
+-------|---------|---------|-------------------------------------------------------------------------
+EC     | READ    |         | Read the value of the sensor                                            
 EC     | LEDS    | 0       | Turn the LED on the EZO circuit off
 EC     | LEDS    | 1       | Turn the LED on the EZO circuit on
 EC     | TYPE    | 0       | Set the circuit to read from K=0.1 devices
@@ -31,14 +30,16 @@ VL     | OPEN    |         | Open the supply valuve
 VL     | CLOS    |         | Close the supply valuve
 
 In addition to returning any values as appropriate, commands may return one of the following status codes:
---------|-------------
+
 Status  | Description
---------|-------------
+--------|--------------------------------------------------------------------------------------------------------------------------------|
 ERMODU  | An invalid module has been supplied in the first two characters of the command
 ERPARA  | An invalid command or parameter has been supplied in the third through sixth or third through seventh characters of the command
 ERCOMM  | The gardener was not able to communicate with the specified device
 OK      | Worked
 
+In setup, the device onto which the firmware is loaded sits connected via USB to a Raspberry Pi, 
+which is the gateway to the Internet. The Pi receives MQTT, WAMP/JSON-RPC, or other commands from 
+an IoT service in the cloud, from which it then translates and messages to this device.
 
-There is cruft in here, as it was a very quick pass to 
-get the job done.
+There is cruft in here, as it was a very quick pass to get the job done.
