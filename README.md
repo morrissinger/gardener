@@ -6,6 +6,15 @@ Also controls a supply valve through which additional nutrient can be released i
 
 The Arduino is programmed to receive simple serial commands in the following language:
 
+```
+ECCALIL
+```
+
+Here, the first two characters represent the module (EC sensor, pH sensor, Valve, or Pump), and the next four characters represent a command to perform on that module, and the final character is a parameter, which some commands require and others do not.
+
+The full API is as follows:
+
+
 Module | Command | Param   | Description                                                             
 -------|---------|---------|-------------------------------------------------------------------------
 EC     | READ    |         | Read the value of the sensor                                            
