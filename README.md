@@ -49,9 +49,13 @@ ERPARA  | An invalid command or parameter has been supplied in the third through
 ERCOMM  | The gardener was not able to communicate with the specified device
 OK      | Worked
 
-In setup, the device onto which the firmware is loaded sits connected via USB to a Raspberry Pi, 
-which is the gateway to the Internet. The Pi receives MQTT, WAMP/JSON-RPC, or other commands from 
+In setup, the device onto which the firmware is loaded sits connected via USB to a Raspberry Pi,
+which is the gateway to the Internet. The Pi receives MQTT, WAMP/JSON-RPC, or other commands from
 an IoT service in the cloud, from which it then translates and messages to this device.
+
+The hydroponic garden with which I used this software is described in the following diagram:
+![Morris Singer's Hydroponic Garden System Diagram](http://i.imgur.com/pqnGeTb.png)
+
 
 There is cruft in here, as it was a very quick pass to get the job done.
 
