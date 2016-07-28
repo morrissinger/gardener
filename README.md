@@ -10,7 +10,7 @@ The Arduino is programmed to receive simple serial commands in the following lan
 ECCALIL
 ```
 
-Here, the first two characters represent the module (EC sensor, pH sensor, Valve, or Pump), and the next four characters represent a command to perform on that module, and the final character is a parameter, which some commands require and others do not.
+Here, the first two characters represent the module (EC sensor, pH sensor, Valve, or Pump), and the next four characters represent a command to perform on that module, and the final character is a parameter, which some commands require and others do not. So, in this example, `EC` refers to the EC sensor module, `CALI` commands the EC sensor circuit to perform a calibration, and the `L` tells the EC sensor circuit that the type of calibration being performed is a calibration against low-conductivity test solution.
 
 The full API is as follows:
 
